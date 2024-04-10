@@ -101,12 +101,12 @@
       "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous"]
     },
     {
-      "route": "*",
-      "allowedRoles": ["admin", "editor", "readonly", "reader"]
-    },
-    {
       "route": "/api/GetRoles",
       "allowedRoles": ["admin", "editor", "readonly", "authenticated"]
+    },
+    {
+      "route": "*",
+      "allowedRoles": ["admin", "editor", "readonly", "reader"]
     }
   ],
   "navigationFallback": {
