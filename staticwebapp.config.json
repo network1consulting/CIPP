@@ -179,7 +179,7 @@
       ]
     },
     {
-      "route": "/.auth/login/complete",
+      "route": "/.auth/complete",
       "allowedRoles": [
         "anonymous"
       ]
