@@ -159,7 +159,7 @@
       ]
     },
     {
-      "route": "/api/GetRoles",
+      "route": "/api/GetRoles*",
       "allowedRoles": [
         "admin",
         "editor",
