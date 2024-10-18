@@ -177,6 +177,12 @@
         "reader",
         "authenticated"
       ]
+    },
+    {
+      "route": "/.auth/login/complete",
+      "allowedRoles": [
+        "anonymous"
+      ]
     }
   ],
   "navigationFallback": {
