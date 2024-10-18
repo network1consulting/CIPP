@@ -174,7 +174,8 @@
         "admin",
         "editor",
         "readonly",
-        "reader"
+        "reader",
+        "authenticated"
       ]
     }
   ],
