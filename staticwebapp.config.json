@@ -1,4 +1,21 @@
 {
+    "auth": {
+    "rolesSource": "/api/GetEntraRoles",
+    "identityProviders": {
+      "azureActiveDirectory": {
+        "registration": {
+          "openIdIssuer": "https://login.microsoftonline.com/44baf5b4-3d4f-49e7-9d4b-c37277e313d7/v2.0",
+          "clientIdSettingName": "AZURE_CLIENT_ID",
+          "clientSecretSettingName": "AZURE_CLIENT_SECRET"
+        },
+        "login": {
+          "loginParameters": [
+            "resource=https://graph.microsoft.com"
+          ]
+        }
+      }
+    }
+  },
   "routes": [
     {
       "route": "_next/static/*",
