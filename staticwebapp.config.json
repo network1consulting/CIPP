@@ -92,7 +92,7 @@
       ]
     },
     {
-      "route": "/api/auth/GetEntraRoles",
+      "route": "/api/me",
       "allowedRoles": [
         "admin",
         "editor",
