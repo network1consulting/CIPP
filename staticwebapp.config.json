@@ -92,6 +92,15 @@
       ]
     },
     {
+      "route": "/api/auth/GetEntraRoles",
+      "allowedRoles": [
+        "admin",
+        "editor",
+        "readonly",
+        "authenticated"
+      ]
+    },
+    {
       "route": "*",
       "allowedRoles": [
         "admin",
