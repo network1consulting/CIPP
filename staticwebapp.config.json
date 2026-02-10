@@ -92,15 +92,6 @@
       ]
     },
     {
-      "route": "/api/me",
-      "allowedRoles": [
-        "admin",
-        "editor",
-        "readonly",
-        "authenticated"
-      ]
-    },
-    {
       "route": "*",
       "allowedRoles": [
         "admin",
