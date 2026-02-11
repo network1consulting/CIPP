@@ -1,6 +1,6 @@
 {
   "auth": {
-    "rolesSource": "/api/auth/GetEntraRoles",
+    "rolesSource": "/api/custom/auth/GetEntraRoles",
     "identityProviders": {
       "azureActiveDirectory": {
         "registration": {
