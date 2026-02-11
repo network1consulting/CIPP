@@ -18,7 +18,7 @@
   },
   "routes": [
     {
-      "route": "/api/auth/GetEntraRoles",
+      "route": "/api/custom/auth/GetEntraRoles",
       "allowedRoles": [
         "authenticated",
         "anonymous"
